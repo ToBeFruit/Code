@@ -1,0 +1,68 @@
+html{
+	background-color: white;
+}
+/* FONCTION : min-height = xxxpx; taile mini*/
+#bodycadre{
+	display: block;
+	margin:auto;
+	width:1100px;
+	background-color: #B1FEB9;
+}
+.header{
+	background-image:url(wood_p.jpg);
+	
+}
+#logo{
+	height:150px;
+	width:150px;
+	
+	
+}
+#recherche{
+	width:250px;
+	height:30px;
+	margin-top:20px;
+	margin-left:20px;
+
+}
+h1{
+	text-align: center;
+	font-family: vivaldi;
+	font-size: 60px;
+	color: red;
+	
+}
+#connect{
+	border: 1px solid black;
+	margin-left:450px;
+	background-color: red;
+	border-radius: 8px
+}
+#panier{
+	height: 60px;
+	width: 65px;
+}
+#navbar{
+	text-align: center;
+}
+li{
+	display: inline;
+	padding-top:15px;
+	padding-bottom: 15px;
+	padding-left: 75px;
+	padding-right: 75px;
+	margin: -2px;
+	border:1px solid black;
+	text-align: center;
+	background-color: #0DE323;
+
+}
+li:hover{
+	background-color: #1EA22B;
+}
+.centre{
+	background-image: url(pot.png);
+	background-repeat:no-repeat;
+	background-position: bottom;
+	height: 1200px
+}

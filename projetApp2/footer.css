@@ -1,0 +1,13 @@
+#footer{
+	height: 34px;
+	padding-top:10px;
+	background: linear-gradient(to bottom,#C40202,red,#C40202);
+	text-align: center;
+}
+a{
+	text-decoration: none;
+}
+.imgfoot:hover{
+	background-color:green;
+	border-radius:15px;
+}

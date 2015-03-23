@@ -1,0 +1,12 @@
+#leg{
+	display: block;
+	margin:auto;
+	height: 170px;
+	width:1000px;
+}
+
+.imgbody{
+	width:440px;
+	height:300px;
+	margin-left:50px;
+}
