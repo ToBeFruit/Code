@@ -1,7 +1,9 @@
 <meta charset="UTF-8">
 <link rel="stylesheet" type="text/css" href="BaseSite.css">
 
-	<div id="bandelogo">
+<!--TODO ♠Navbar en transparence-->
+
+<div id="bandelogo">
 		<table>
 			<tr>
 				<td><img src="logo-de-fruit-21373675.jpg"></td>

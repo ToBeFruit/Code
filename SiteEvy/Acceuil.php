@@ -7,7 +7,7 @@
 <body>
 <?php include('BaseSite.php'); ?>
 
-<table>
+<table class="op">
 		<tr>
 			<td>
 				<h2>Qui sommes nous ?</h2>
