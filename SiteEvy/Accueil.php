@@ -16,10 +16,10 @@
 			bla bla bla bla bla bla bla bla bla bla bla bla bla bla blabla bla bla bla bla bla bla bla bla bla bla bla bla bla bla 
 			bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
 		  	bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla</p></td>
-		  	<td><img class="imgbody" src="marche-legumes-75071.jpg"/></td>
+		  	<td><img class="imgbody" src="Images\marche-legumes-75071.jpg"/></td>
 		</tr>
 	  	<tr>
-	  		<td><img class="imgbody" src="legumes_1.jpg"/></td>
+	  		<td><img class="imgbody" src="Images\legumes_1.jpg"/></td>
 			<td>
 				<h2>Comment ça marche ?</h2>
 				<p>bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
