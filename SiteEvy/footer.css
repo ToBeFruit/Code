@@ -3,6 +3,7 @@
 	padding-top:10px;
 	background: linear-gradient(to bottom,#C40202,red,#C40202);
 	text-align: center;
+    bottom:0;
 }
 a{
 	text-decoration: none;

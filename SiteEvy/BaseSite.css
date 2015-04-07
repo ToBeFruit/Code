@@ -1,10 +1,21 @@
 html{
 	background-image: url("Fresh_Fruits_and_Vegetables.jpg");
 }
+
+a,p{
+    color:black;
+    font-family: arial;
+    font-size:14px;
+}
 body{
 	width: 1000px;
 	margin:auto;
 	background-color:#FAFAFA;
+
+
+}
+#body{
+
 }
 #bandelogo{
 	background: linear-gradient(to bottom,#C40202,red,#C40202);
@@ -28,6 +39,9 @@ background-color: #E2D9D9;
 padding-top: 1px;
 padding-bottom: 1px;
 text-align: center;
+}
+#mybody{
+    min-height: 100%;
 }
 li{
 
