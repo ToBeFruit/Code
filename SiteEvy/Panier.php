@@ -27,7 +27,12 @@
         </tr>
         <tr>
             <td><img class="imagepanier" src="Cerise.png"><input type="submit" value="charger image"></td>
-            <td> </td>
+            <td>
+                <ul><li>Quantité<select></select></li>
+                <li>Prix<select></select></li>
+                <li>Date<select></select></li>
+                </ul>
+            </td>
             <td> <input type="submit" value="Proposer l'échange" ></td>
         </tr>
         <tr>
@@ -35,12 +40,22 @@
         </tr>
         <tr>
             <td><img class="imagepanier" src="Pomme_de_terre.png" </td>
-            <td><p>Description Annonce</p></td>
+            <td>
+                <ul><li>Quantité<select></select></li>
+                    <li>Prix<select></select></li>
+                    <li>Date<select></select></li>
+                </ul>
+            </td>
             <td><input type="submit" value="valider"> </td>
         </tr>
         <tr>
             <td><img class="imagepanier" src="Mangoustan.png" </td>
-            <td><p>Description Annonce</p></td>
+            <td>
+                <ul><li>Quantité<select></select></li>
+                    <li>Prix<select></select></li>
+                    <li>Date<select></select></li>
+                </ul>
+            </td>
             <td><input type="submit" value="valider"> </td>
         </tr>
 </table>
