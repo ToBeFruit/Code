@@ -1,0 +1,11 @@
+#orga tr td {
+    /*display : inline-block;*/
+    text-align: center;
+
+}
+
+.imageannonce{
+    width: 200px;
+    height: 200px;
+
+}
