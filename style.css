@@ -129,6 +129,8 @@ p{
 }
 #panier{
     margin-top:10px;
+    margin-left:100px;
+
 }
 /*#trou{
     background: linear-gradient(to bottom,black,grey,black);
@@ -183,4 +185,9 @@ div.annoncedefile a {
 div.annoncedefile a img {
     display: block;
     margin: 0 auto;
+}
+
+.imagepanier{
+    height: 30%;
+    width: 30%;
 }
