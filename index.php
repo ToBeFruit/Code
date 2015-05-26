@@ -20,8 +20,6 @@
 
     ?>
 
-
-
     <script language="javascript">
 
         imgPath = new Array;
@@ -113,7 +111,7 @@
 
                 document.defil.src = imgPath[a];
 
-                tempo3 = setTimeout("defilimg()",5000);
+                tempo3 = setTimeout("defilimg()",3000);
 
                 a++;
 

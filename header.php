@@ -24,7 +24,7 @@
         <p><br>Nous sommes une association à but non lucratif. Notre objectif est d'offrir aux particuliers des fruits et légumes
                 bio de qualités. Nous prônons la convivialité et l'échange. Faites votre marché!</p>
         <div id="PC">
-            <a href="LIEN" id="compte"><img src="user168.png"> S'inscrire</a><br><br>
+            <img src="user168.png"><a href="Ident.php"> S'inscrire/S'identifier</a><br><br>
             <a href="LIEN" id="panier"><img src="add169.png"> Mon Panier</a>
         </div>
             <?php include('footer.php')?>

@@ -7,6 +7,7 @@ body{
     height: 100%;
     margin-left:21%;
     background: url("fondu.png") no-repeat;
+    background-attachment: fixed;
     background-size: 100% auto;
 
 
@@ -36,7 +37,7 @@ body{
 
 .logo{
     width: 200px;
-    padding-left: 10Px;
+    margin-left: -140Px;
 }
 .i0.src {
     width: 800px;
@@ -129,8 +130,6 @@ p{
 }
 #panier{
     margin-top:10px;
-    margin-left:100px;
-
 }
 /*#trou{
     background: linear-gradient(to bottom,black,grey,black);
@@ -187,7 +186,14 @@ div.annoncedefile a img {
     margin: 0 auto;
 }
 
-.imagepanier{
-    height: 30%;
-    width: 30%;
+
+#are{
+    /* float: left;*/
 }
+
+#connect{
+    text-decoration: none;
+}
+/*#textproduct{
+    text-decoration-color: white;
+}*/
