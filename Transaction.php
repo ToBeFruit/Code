@@ -5,7 +5,7 @@
  * Date: 14/05/15
  * Time: 21:26
  */
-
+require('config.php');
 ?>
 
 <!DOCTYPE html>
@@ -25,7 +25,7 @@
 </header>
 <body>
 <div class="principal">
-<div id="orga">
+<!--<div id="orga">
 
     <br>
 
@@ -51,46 +51,104 @@
 
     </table>
 
-</div>
+</div>-->
 
-<div id="annonce">
 
-    <table>
-        <tr>
-            <td colspan="3"> Annonce 1</td>
-        </tr>
-        <tr>
-            <td><img class="imageannonce" src="cerises.png"></td>
-            <td>
-                <p> Je vend des tomates cerises pas très chere ceuillis dams mon jardin mardi dernier. Mon cerisier est
-                    exposé plein sud tout au long de l'année ce qui rend mes cerises plus sucrée que d'origine</p>
-            </td>
-            <td> <input type="submit" value="ajouter au panier"/></td>
-        </tr>
-        <tr>
-            <td colspan="3"> Annonce 2</td>
-        </tr>
-        <tr>
-            <td><img class="imageannonce" src="cerises.png"></td>
-            <td>
-                <p> Je vend des cerises pas très chere ceuillis dams mon jardin mardi dernier. Elles sont fermes et
-                    goutue. Penser à les préparer en salade, c'est une affaire</p>
-            </td>
-            <td> <input type="submit" value="ajouter au panier"</td>
-        </tr>
-        <tr>
-            <td colspan="3"> Annonce 3</td>
-        </tr>
-        <tr>
-            <td><img class="imageannonce" src="cerises.png"></td>
-            <td>
-                <p> Je vend des carottes pas très chere ceuillis dams mon jardin mardi dernier. Elles ont été
-                    dévorés par les oiseaux et ont des vers mais j'ai besoin de tunes achetez les !</p>
-            </td>
-            <td> <input type="submit" value="ajouter au panier"</td>
-        </tr>
-    </table>
-</div>
+    <form action="Transaction.php" method="post">
+
+
+        <table>
+
+            <tr>
+
+                <td><label for="description"><strong>Description :</strong></label></td>
+                <td><input type="text" name="description" id="description"/></td>
+
+            </tr>
+
+            <tr>
+                <td><label for="Product"><strong>Produit :</strong></label></td>
+                <td><select type="text" name="Product" id="Product"/>
+                    <option> Choisir </option>
+<?php
+                $sql='SELECT * FROM Product';
+                $requet=$bdd->query($sql);
+                while($prod=$requet->fetch()){
+
+?>
+
+
+                <option><?= $prod['Nom']; ?></option>
+                    <?php  }// endforeach; ?>
+                    <option> Autre ... </option>
+                    </select>
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td><label for="prix"><strong>Prix :</strong></label></td>
+                <td><input type="text" name="prix" id="prix"/></td>
+
+            </tr>
+
+            <tr>
+
+                <td><label for="poid"><strong>Poids :</strong></label></td>
+                <td><input type="text" name="poid" id="poid"/></td>
+
+            </tr>
+
+            <tr>
+
+                <td><label for="date"><strong>Date de la ceuillette :</strong></label></td>
+                <td><input type="text" name="date" id="date"/></td>
+
+            </tr>
+
+
+
+
+        </table>
+
+        <input type="submit" name="register" value="Mettre en vente"/>
+
+        <input type="submit" name="registers" value="Proposer à l'échange"/>
+
+    </form>
+
+    <?php
+
+
+    if(isset($_POST['register'])){
+
+            $sql = 'INSERT INTO annonce VALUES ("","'.$_POST['description'].'","'.$_POST['product'].'","'.$_POST['prix'].'",
+                "'.$_POST['poid'].'","'.$_POST['date'].'")';
+            $requet = $bdd->query($sql);
+
+            echo  " <p>Votre annonce à été prise en compte</p>";
+
+    }
+
+
+
+    if(isset($_POST['registers'])){
+
+
+        $sql = 'INSERT INTO annonce VALUES ("","'.$_POST['description'].'","'.$_POST['product'].'","'.$_POST['prix'].'",
+                "'.$_POST['poid'].'","'.$_POST['date'].'")';
+        $requet = $bdd->query($sql);
+
+        echo "Votre demande d'échange à été prise en compte";
+
+    }
+
+
+
+    ?>
+
+
 </div>
 </body>
 <footer>

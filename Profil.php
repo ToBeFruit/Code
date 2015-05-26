@@ -33,9 +33,49 @@ require('config.php');
 
         <tr>
 
-            <td><label for="login"><strong>Nom d'utilisateur :</strong></label></td>
+            <td><label for="login"><strong>Pseudo :</strong></label></td>
             <td><input type="text" name="login" id="login"/></td>
 
+        </tr>
+
+        <tr>
+
+            <td><label for="firstame"><strong>Nom :</strong></label></td>
+            <td><input type="text" name="firstname" id="firstname"/></td>
+
+        </tr>
+
+        <tr>
+
+            <td><label for="name"><strong>Prénom :</strong></label></td>
+            <td><input type="text" name="name" id="name"/></td>
+
+        </tr>
+
+        <tr>
+
+            <td><label for="date"><strong>Date de naissance :</strong></label></td>
+            <td><input type="text" name="date" id="date"/></td>
+
+        </tr>
+
+        <tr>
+
+            <td><label for="Adress"><strong>Adresse :</strong></label></td>
+            <td><input type="text" name="Adress" id="Adress"/></td>
+
+        </tr>
+
+        <tr>
+
+            <td><label for="postal"><strong>code postal :</strong></label></td>
+            <td><input type="text" name="postal" id="postal"/></td>
+
+        </tr>
+
+        <tr>
+            <td><label for="Email"><strong>Email :</strong></label></td>
+            <td><input type="email" name="Email" id="Email"/></td>
         </tr>
 
         <tr>
@@ -51,10 +91,6 @@ require('config.php');
             <td><input type="password" name="pass2" id="pass2"/></td>
         </tr>
 
-        <tr>
-            <td><label for="Email"><strong>Email :</strong></label></td>
-            <td><input type="email" name="Email" id="Email"/></td>
-        </tr>
 
     </table>
 
@@ -63,15 +99,24 @@ require('config.php');
 </form>
     <?php
 
+
     if(isset($_POST['register'])){
+$login=$_POST["login"];
+        if($_POST["pass"] == $_POST["pass2"]) {
+            //$requete = $bdd->query("SELECT * FROM Users WHERE login='.$login.'");
+            //$count=$requete->rowCount() ;
+            //if ($count == 0) {
 
-        if($_POST["pass"] == $_POST["pass2"]){
 
-            $sql="INSERT INTO Users VALUES ('','".$_POST['login']."','".md5($_POST['pass'])."','".$_POST['Email']."')";
-            $requet=$bdd->query($sql);
+            $sql = 'INSERT INTO Users VALUES ("","' . $_POST['name'] . '","' . md5($_POST['pass']) . '","' . $_POST['Email'] . '","' . $_POST['login'] . '",
+                "' . $_POST['firstame'] . '","' . $_POST['date'] . '","' . $_POST['Adress'] . '","' . $_POST['postal'] . '")';
+            $requet = $bdd->query($sql);
 
-            echo "votre inscription à été prise en compte";
-
+            echo "Votre inscription à été prise en compte";
+        //}
+           // else{
+             //   echo "Votre Pseudo existe déja";
+            //}
         }
 
         else{
