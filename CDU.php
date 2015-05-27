@@ -244,6 +244,6 @@ Fotolia.com
 
 Les présentes CGU ont été mises à jour le 1er septembre 2008.
 
-</p>
+
 </div>
 </body>

@@ -197,3 +197,26 @@ div.annoncedefile a img {
 /*#textproduct{
     text-decoration-color: white;
 }*/
+
+h1{
+    color: red;
+    text-align: center;
+}
+h2{
+    color: orangered;
+    text-align: center;
+    height: 100%;
+
+}
+
+
+/*.faqList{ margin:15px 0; border:1px solid #E1DFDD; border-bottom:0; }
+.faqList .entry{ height:22px; overflow:hidden; border-bottom:1px solid #E1DFDD; }
+.faqList .entry h2 a{ display:block; padding:4px 5px 4px 30px; height:15px; font-weight:normal; background:url(faq-closed.png) no-repeat; }
+.faqList .entry h2 a:hover{ text-decoration:none; background-color:#F7F7F7; }
+.faqList .entry .answer{ padding:10px 5px 10px 30px; }
+.faqList .entry .answer .links{ margin:5px 0; }
+.faqList .entry .answer .links ul li a{ font-weight:normal; }
+.faqList .entry .answer a{ color:#FA0057; }
+.faqList .open{ height:auto; overflow:visible; background:#F7F7F7; }
+.faqList .open h2 a{ font-weight:bold; background-image:url(faq-open.png); }

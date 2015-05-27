@@ -6,7 +6,7 @@
  * Time: 21:27
  */
 ?>
-
+<meta charset="UTF-8">
 
 <table>
         <img class="logo" src="logo.png"/><br>

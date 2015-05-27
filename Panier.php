@@ -15,7 +15,7 @@
 
     <link rel="stylesheet" src="style.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>To Be Fruit</title>
+    <title>Panier</title>
 
 </head>
 <header>
