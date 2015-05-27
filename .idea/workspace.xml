@@ -4,23 +4,14 @@
     <bookmark url="file://$PROJECT_DIR$/style.css" line="195" mnemonic="5" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26151194-ea3e-4296-a4d7-f200bee04228" name="Default" comment="" />
-    <list id="b111f81e-6dcc-4ca8-83a3-6cc4e753130c" name="New changelist" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/ToBeFruit.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="26151194-ea3e-4296-a4d7-f200bee04228" name="Default" comment="ToBeFruit">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
+    <list id="b111f81e-6dcc-4ca8-83a3-6cc4e753130c" name="New changelist" comment="" />
     <ignored path="ToBeFruit.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <file path="$PROJECT_DIR$/.idea/ToBeFruit.iml" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/encodings.xml" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/vcs.xml" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/modules.xml" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,11 +87,6 @@
   </component>
   <component name="FrameworkCommandLineHistory">
     <commandsHistory>
-      <command text="git status" />
-      <command text="/usr/bin/git status" />
-      <command text="ls /users/" />
-      <command text="ls /users/alexiskd/" />
-      <command text="ls /usr/local/bin/" />
       <command text="/usr/local/git/bin/git status" />
       <command text="/usr/local/git/bin/git remote" />
       <command text="/usr/local/git/bin/git remote --help" />
@@ -116,6 +102,15 @@
       <command text="/usr/local/git/bin/git branch --set-upstream master origin/master" />
       <command text="/usr/local/git/bin/git branch --track master origin/master" />
       <command text="/usr/local/git/bin/git branch --track origin/master" />
+      <command text="/usr/local/git/bin/git pull origin master" />
+      <command text="git status" />
+      <command text="/usr/local/git/bin/git status" />
+      <command text="git add ." />
+      <command text="/usr/local/git/bin/git add ." />
+      <command text="/usr/local/git/bin/git commit -m &quot;test&quot;" />
+      <command text="/usr/local/git/bin/git fecth origin/master" />
+      <command text="/usr/local/git/bin/git fetch origin/master" />
+      <command text="/usr/local/git/bin/git fetch origin" />
       <command text="/usr/local/git/bin/git pull origin master" />
     </commandsHistory>
   </component>
